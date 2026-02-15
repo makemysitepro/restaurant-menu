@@ -1,0 +1,702 @@
+{
+  "restaurant": {
+    "name": "🍴 Delicious Bites Restaurant"
+  },
+  "categories": [
+    {
+      "id": "special",
+      "name": "Special",
+      "items": [
+        {
+          "id": 100,
+          "name": "Chef's Special Thali",
+          "description": "A complete meal with dal, sabzi, rice, roti, salad, and dessert",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop",
+          "quarterPrice": 150,
+          "halfPrice": 250,
+          "fullPrice": 400
+        },
+        {
+          "id": 101,
+          "name": "Tandoori Platter",
+          "description": "Assorted tandoori items - paneer tikka, mushroom, and kebabs",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop",
+          "quarterPrice": 180,
+          "halfPrice": 300,
+          "fullPrice": 500
+        },
+        {
+          "id": 102,
+          "name": "Royal Paneer Lababdar",
+          "description": "Premium cottage cheese in rich cashew and tomato gravy",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "halfPrice": 200,
+          "fullPrice": 350
+        },
+        {
+          "id": 103,
+          "name": "Stuffed Mushroom",
+          "description": "Mushrooms stuffed with cheese and herbs, baked to perfection",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=400&h=300&fit=crop",
+          "halfPrice": 180,
+          "fullPrice": 320
+        },
+        {
+          "id": 104,
+          "name": "Chicken Tikka Masala",
+          "description": "Grilled chicken in creamy tomato and butter sauce",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&h=300&fit=crop",
+          "quarterPrice": 130,
+          "halfPrice": 220,
+          "fullPrice": 380
+        },
+        {
+          "id": 105,
+          "name": "Mutton Rogan Josh",
+          "description": "Tender mutton cooked in aromatic Kashmiri spices",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "halfPrice": 280,
+          "fullPrice": 480
+        },
+        {
+          "id": 106,
+          "name": "Fish Tikka",
+          "description": "Marinated fish grilled in tandoor with special spices",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1534604973900-c43ab4c2e0ab?w=400&h=300&fit=crop",
+          "halfPrice": 250,
+          "fullPrice": 420
+        },
+        {
+          "id": 107,
+          "name": "Prawn Butter Garlic",
+          "description": "Jumbo prawns cooked in butter garlic sauce",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?w=400&h=300&fit=crop",
+          "halfPrice": 300,
+          "fullPrice": 520
+        }
+      ]
+    },
+    {
+      "id": "starters",
+      "name": "Starters",
+      "items": [
+        {
+          "id": 1,
+          "name": "Spring Rolls",
+          "description": "Crispy vegetable spring rolls served with sweet chili sauce",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=400&h=300&fit=crop",
+          "fullPrice": 200
+        },
+        {
+          "id": 2,
+          "name": "Paneer Tikka",
+          "description": "Grilled cottage cheese marinated in Indian spices",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?w=400&h=300&fit=crop",
+          "quarterPrice": 80,
+          "halfPrice": 140,
+          "fullPrice": 240
+        },
+        {
+          "id": 3,
+          "name": "French Fries",
+          "description": "Golden crispy potato fries with ketchup",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&h=300&fit=crop",
+          "fullPrice": 140
+        },
+        {
+          "id": 4,
+          "name": "Veg Cutlet",
+          "description": "Crispy vegetable patties served with mint chutney",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+          "halfPrice": 100,
+          "fullPrice": 180
+        },
+        {
+          "id": 5,
+          "name": "Hara Bhara Kabab",
+          "description": "Spinach and green peas kabab with spices",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop",
+          "halfPrice": 120,
+          "fullPrice": 200
+        },
+        {
+          "id": 6,
+          "name": "Corn Cheese Balls",
+          "description": "Deep fried corn and cheese balls",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1625937286074-9ca519d5d9df?w=400&h=300&fit=crop",
+          "halfPrice": 130,
+          "fullPrice": 220
+        }
+      ]
+    },
+    {
+      "id": "chicken",
+      "name": "Chicken",
+      "items": [
+        {
+          "id": 7,
+          "name": "Chicken Wings",
+          "description": "Spicy fried chicken wings with tangy dipping sauce",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=400&h=300&fit=crop",
+          "halfPrice": 150,
+          "fullPrice": 250
+        },
+        {
+          "id": 8,
+          "name": "Chicken Tikka",
+          "description": "Grilled chicken chunks marinated in yogurt and spices",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "halfPrice": 180,
+          "fullPrice": 300
+        },
+        {
+          "id": 9,
+          "name": "Chicken Seekh Kabab",
+          "description": "Minced chicken kabab with aromatic spices",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+          "halfPrice": 160,
+          "fullPrice": 280
+        },
+        {
+          "id": 10,
+          "name": "Tandoori Chicken",
+          "description": "Classic tandoori chicken with Indian spices",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "fullPrice": 350
+        },
+        {
+          "id": 11,
+          "name": "Chicken Lollipop",
+          "description": "Crispy fried chicken drumsticks with spicy coating",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1562967914-608f82629710?w=400&h=300&fit=crop",
+          "halfPrice": 170,
+          "fullPrice": 290
+        }
+      ]
+    },
+    {
+      "id": "chinese",
+      "name": "Chinese",
+      "items": [
+        {
+          "id": 12,
+          "name": "Veg Manchurian",
+          "description": "Vegetable balls in spicy Manchurian sauce",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=400&h=300&fit=crop",
+          "halfPrice": 140,
+          "fullPrice": 240
+        },
+        {
+          "id": 14,
+          "name": "Veg Hakka Noodles",
+          "description": "Stir-fried noodles with vegetables and sauces",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1612929633738-8fe44f7ec841?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "halfPrice": 120,
+          "fullPrice": 200
+        },
+        {
+          "id": 16,
+          "name": "Veg Fried Rice",
+          "description": "Stir-fried rice with mixed vegetables",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+          "halfPrice": 110,
+          "fullPrice": 190
+        },
+        {
+          "id": 18,
+          "name": "Chilli Paneer",
+          "description": "Cottage cheese in spicy Indo-Chinese sauce",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "halfPrice": 160,
+          "fullPrice": 280
+        },
+        {
+          "id": 13,
+          "name": "Chicken Manchurian",
+          "description": "Chicken balls in tangy Manchurian gravy",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=400&h=300&fit=crop",
+          "halfPrice": 180,
+          "fullPrice": 300
+        },
+        {
+          "id": 15,
+          "name": "Chicken Hakka Noodles",
+          "description": "Stir-fried noodles with chicken and vegetables",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "halfPrice": 150,
+          "fullPrice": 260
+        },
+        {
+          "id": 17,
+          "name": "Chicken Fried Rice",
+          "description": "Fried rice with chicken and vegetables",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1516684732162-798a0062be99?w=400&h=300&fit=crop",
+          "halfPrice": 140,
+          "fullPrice": 240
+        },
+        {
+          "id": 19,
+          "name": "Chilli Chicken",
+          "description": "Boneless chicken in spicy chilli sauce",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&h=300&fit=crop",
+          "fullPrice": 310
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "name": "Soups",
+      "items": [
+        {
+          "id": 5,
+          "name": "Tomato Soup",
+          "description": "Fresh tomato soup with herbs and cream",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
+          "halfPrice": 60,
+          "fullPrice": 100
+        },
+        {
+          "id": 6,
+          "name": "Hot & Sour Soup",
+          "description": "Spicy and tangy vegetable soup with mushrooms",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?w=400&h=300&fit=crop",
+          "halfPrice": 70,
+          "fullPrice": 120
+        },
+        {
+          "id": 7,
+          "name": "Chicken Soup",
+          "description": "Clear chicken broth with vegetables and noodles",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1613844237701-8f3664fc2eff?w=400&h=300&fit=crop",
+          "halfPrice": 80,
+          "fullPrice": 140
+        }
+      ]
+    },
+    {
+      "id": "main-course",
+      "name": "Main Course",
+      "items": [
+        {
+          "id": 9,
+          "name": "Paneer Butter Masala",
+          "description": "Cottage cheese cubes in creamy tomato gravy",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=300&fit=crop",
+          "halfPrice": 160,
+          "fullPrice": 280
+        },
+        {
+          "id": 10,
+          "name": "Dal Makhani",
+          "description": "Black lentils cooked overnight with butter and cream",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "halfPrice": 140,
+          "fullPrice": 240
+        },
+        {
+          "id": 12,
+          "name": "Veg Biryani",
+          "description": "Aromatic rice with mixed vegetables and spices",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "halfPrice": 160,
+          "fullPrice": 280
+        },
+        {
+          "id": 8,
+          "name": "Butter Chicken",
+          "description": "Tender chicken in rich tomato and butter gravy",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?w=400&h=300&fit=crop",
+          "bestSeller": true,
+          "halfPrice": 180,
+          "fullPrice": 320
+        },
+        {
+          "id": 11,
+          "name": "Chicken Biryani",
+          "description": "Fragrant basmati rice with spiced chicken and herbs",
+          "type": "non-veg",
+          "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop",
+          "quarterPrice": 120,
+          "halfPrice": 200,
+          "fullPrice": 350
+        }
+      ]
+    },
+    {
+      "id": "breads",
+      "name": "Breads",
+      "items": [
+        {
+          "id": 13,
+          "name": "Butter Naan",
+          "description": "Soft leavened bread brushed with butter",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+          "halfPrice": 25,
+          "fullPrice": 40
+        },
+        {
+          "id": 14,
+          "name": "Garlic Naan",
+          "description": "Naan topped with fresh garlic and coriander",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400&h=300&fit=crop",
+          "halfPrice": 30,
+          "fullPrice": 50
+        },
+        {
+          "id": 15,
+          "name": "Tandoori Roti",
+          "description": "Whole wheat bread baked in tandoor",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1619985632461-f33748ef8f3e?w=400&h=300&fit=crop",
+          "halfPrice": 20,
+          "fullPrice": 35
+        }
+      ]
+    },
+    {
+      "id": "rice",
+      "name": "Rice",
+      "items": [
+        {
+          "id": 16,
+          "name": "Steamed Rice",
+          "description": "Plain basmati rice steamed to perfection",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=400&h=300&fit=crop",
+          "halfPrice": 60,
+          "fullPrice": 100
+        },
+        {
+          "id": 17,
+          "name": "Jeera Rice",
+          "description": "Basmati rice tempered with cumin seeds",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=400&h=300&fit=crop",
+          "halfPrice": 80,
+          "fullPrice": 140
+        },
+        {
+          "id": 18,
+          "name": "Fried Rice",
+          "description": "Stir-fried rice with vegetables and soy sauce",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+          "halfPrice": 100,
+          "fullPrice": 180
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": [
+        {
+          "id": 30,
+          "name": "Gulab Jamun",
+          "description": "Soft milk dumplings soaked in sugar syrup",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=400&h=300&fit=crop",
+          "halfPrice": 40,
+          "fullPrice": 70
+        },
+        {
+          "id": 31,
+          "name": "Rasgulla",
+          "description": "Spongy cottage cheese balls in sugar syrup",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop",
+          "halfPrice": 40,
+          "fullPrice": 70
+        },
+        {
+          "id": 32,
+          "name": "Ice Cream",
+          "description": "Vanilla, chocolate, or strawberry flavor",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=300&fit=crop",
+          "halfPrice": 50,
+          "fullPrice": 90
+        },
+        {
+          "id": 33,
+          "name": "Brownie with Ice Cream",
+          "description": "Warm chocolate brownie topped with vanilla ice cream",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=400&h=300&fit=crop",
+          "halfPrice": 80,
+          "fullPrice": 140
+        },
+        {
+          "id": 34,
+          "name": "Kulfi",
+          "description": "Traditional Indian ice cream with cardamom",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1582716401301-b2407dc7563d?w=400&h=300&fit=crop",
+          "halfPrice": 50,
+          "fullPrice": 90
+        },
+        {
+          "id": 35,
+          "name": "Chocolate Lava Cake",
+          "description": "Warm chocolate cake with molten center",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop",
+          "halfPrice": 90,
+          "fullPrice": 150
+        }
+      ]
+    },
+    {
+      "id": "sweets",
+      "name": "Sweets",
+      "items": [
+        {
+          "id": 50,
+          "name": "Jalebi",
+          "description": "Crispy sweet spirals soaked in sugar syrup",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+          "halfPrice": 60,
+          "fullPrice": 100
+        },
+        {
+          "id": 51,
+          "name": "Rabri",
+          "description": "Thickened sweetened milk with dry fruits",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=300&fit=crop",
+          "halfPrice": 80,
+          "fullPrice": 140
+        },
+        {
+          "id": 52,
+          "name": "Rasmalai",
+          "description": "Soft paneer patties in sweetened milk",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop",
+          "halfPrice": 70,
+          "fullPrice": 120
+        },
+        {
+          "id": 53,
+          "name": "Gajar Halwa",
+          "description": "Carrot pudding with ghee and dry fruits",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop",
+          "halfPrice": 70,
+          "fullPrice": 120
+        },
+        {
+          "id": 54,
+          "name": "Moong Dal Halwa",
+          "description": "Rich lentil pudding with ghee and nuts",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=400&h=300&fit=crop",
+          "halfPrice": 90,
+          "fullPrice": 150
+        },
+        {
+          "id": 55,
+          "name": "Kheer",
+          "description": "Rice pudding with milk, cardamom and dry fruits",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400&h=300&fit=crop",
+          "halfPrice": 60,
+          "fullPrice": 100
+        }
+      ]
+    },
+    {
+      "id": "icecream",
+      "name": "Ice Cream",
+      "items": [
+        {
+          "id": 60,
+          "name": "Vanilla Ice Cream",
+          "description": "Classic vanilla ice cream",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=300&fit=crop",
+          "halfPrice": 50,
+          "fullPrice": 80
+        },
+        {
+          "id": 61,
+          "name": "Chocolate Ice Cream",
+          "description": "Rich chocolate ice cream",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=400&h=300&fit=crop",
+          "halfPrice": 50,
+          "fullPrice": 80
+        },
+        {
+          "id": 62,
+          "name": "Strawberry Ice Cream",
+          "description": "Fresh strawberry ice cream",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1488900128323-21503983a07e?w=400&h=300&fit=crop",
+          "halfPrice": 50,
+          "fullPrice": 80
+        },
+        {
+          "id": 63,
+          "name": "Mango Ice Cream",
+          "description": "Creamy mango ice cream",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400&h=300&fit=crop",
+          "halfPrice": 60,
+          "fullPrice": 100
+        },
+        {
+          "id": 64,
+          "name": "Kulfi Falooda",
+          "description": "Traditional kulfi with vermicelli and rose syrup",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1582716401301-b2407dc7563d?w=400&h=300&fit=crop",
+          "halfPrice": 70,
+          "fullPrice": 120
+        },
+        {
+          "id": 65,
+          "name": "Sundae Special",
+          "description": "Ice cream sundae with chocolate sauce, nuts and cherry",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=300&fit=crop",
+          "halfPrice": 90,
+          "fullPrice": 150
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "name": "Drinks",
+      "items": [
+        {
+          "id": 36,
+          "name": "Soft Drinks",
+          "description": "Coke, Pepsi, Sprite, Fanta",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?w=400&h=300&fit=crop",
+          "halfPrice": 30,
+          "fullPrice": 50
+        },
+        {
+          "id": 37,
+          "name": "Fresh Lime Soda",
+          "description": "Refreshing lime juice with soda and mint",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=400&h=300&fit=crop",
+          "halfPrice": 40,
+          "fullPrice": 70
+        },
+        {
+          "id": 38,
+          "name": "Sweet Lassi",
+          "description": "Sweet yogurt drink with cardamom",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=400&h=300&fit=crop",
+          "halfPrice": 50,
+          "fullPrice": 90
+        },
+        {
+          "id": 39,
+          "name": "Salted Lassi",
+          "description": "Salted yogurt drink with cumin",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=400&h=300&fit=crop",
+          "halfPrice": 50,
+          "fullPrice": 90
+        },
+        {
+          "id": 40,
+          "name": "Mango Lassi",
+          "description": "Yogurt drink blended with fresh mango",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=400&h=300&fit=crop",
+          "halfPrice": 60,
+          "fullPrice": 100
+        },
+        {
+          "id": 41,
+          "name": "Tea",
+          "description": "Hot masala tea or regular tea",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?w=400&h=300&fit=crop",
+          "halfPrice": 20,
+          "fullPrice": 35
+        },
+        {
+          "id": 42,
+          "name": "Coffee",
+          "description": "Hot filter coffee",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=300&fit=crop",
+          "halfPrice": 25,
+          "fullPrice": 40
+        },
+        {
+          "id": 43,
+          "name": "Fresh Juice",
+          "description": "Orange, apple, or mixed fruit juice",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=400&h=300&fit=crop",
+          "halfPrice": 50,
+          "fullPrice": 90
+        },
+        {
+          "id": 44,
+          "name": "Mineral Water",
+          "description": "Bottled mineral water",
+          "type": "veg",
+          "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400&h=300&fit=crop",
+          "halfPrice": 20,
+          "fullPrice": 30
+        }
+      ]
+    }
+  ]
+}
