@@ -43,7 +43,7 @@ export const Footer: React.FC<FooterProps> = ({ isDark }) => {
               <MessageCircle size={20} />
               <span className="font-bold text-sm">Chat on WhatsApp</span>
             </a>
-            <a href="tel:+919876543210"
+            <a href="tel:+918962464949"
               className={`flex items-center gap-3 p-3 rounded-xl border transition-all hover:scale-[1.02] bg-theme-accent
                 ${isDark
                   ? 'border-neutral-700 text-neutral-300 hover:brightness-110'
